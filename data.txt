@@ -1,0 +1,13 @@
+    Colonne    |         Type          | Collationnement | NULL-able |       Par défaut
+ siret         | character varying(20) |                 |           | NULL::character varying
+ eff           | integer               |                 |           |
+ mois          | character varying(30) |                 |           | NULL::character varying
+ date_maj      | character varying(30) |                 |           | NULL::character varying
+ hommes        | integer               |                 |           | 0
+ femmes        | integer               |                 |           | 0
+ cdd           | integer               |                 |           | 0
+ cdi           | integer               |                 |           | 0
+ cdi_inter     | integer               |                 |           | 0
+ inter_mission | integer               |                 |           | 0
+ interim       | integer               |                 |           | 0
+ id            | uuid                  |                 | not null  | uuid_generate_v4()
